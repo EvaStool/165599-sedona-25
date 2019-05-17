@@ -7,7 +7,7 @@
   <body>
     <header class="header-main">
       <nav class="nav-main">
-        <a class="nav-main__link-logo"><img class="logo" src="http://placehold.it/150x100" alt=Логотип Седона/></a>
+        <a class="nav-main__link-logo"><img class="logo" src="http://placehold.it/150x100" alt=Логотип Седона></a>
         <ul class="nav-main__list">
           <li class="nav-main__item"><a class="nav-main__link" href="#">Информация</a></li>
           <li class="nav-main__item"><a class="nav-main__link" href="#">Фото и видео</a></li>
@@ -15,20 +15,52 @@
           <li class="nav-main__item"><a class="nav-main__link" href="#">Гостиницы</a></li>
         </ul>
       </nav>
-      <h1 class="header-main__title">Седона — небольшой городок в Aризоне, заслуживающий большего!</h1>
-      <p class="header-main__subtitle">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
     </header>
     <main>
-      <section>
-
+      <section class="promo">
+        <img class="promo__img" src="http://placehold.it/150x10" alt="Welcome to the gorgeous. Sedona. &quot;Because the Grand Canyon sucks&quot;">
+        <h1 class="promo__title">Седона — небольшой городок в Aризоне, заслуживающий большего!</h1>
+        <p class="promo__subtitle">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      </section>
+      <section class="search">
+        <h2 class="search__title">Заинтересовались?</h2>
+        <p class="search__subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <form class="search__form" action="#" method="post">
+          <h2 class="serch__form-title">Поиск гостиницы в Cедоне</h2>
+          <div class="serch__wrap">
+            <label class="serch_label" for="visit-date">Дата заезда</label>
+            <input class="search__field" id="visit-date" type="text" name="date" value="24.04.2017">
+            <button class="serch__calendar" type="button" aria-label="calendar"></button>
+          </div>
+          <div class="serch__wrap">
+            <label class="serch_label" for="leave-date">Дата выезда</label>
+            <input class="search__field" id="leave-date" type="text" name="date" value="04.07.2017">
+            <button class="serch__calendar" type="button" aria-label="calendar"></button>
+          </div>
+          <div class="serch__wrap">
+            <p>
+              <label class="serch_label" for="big-number">Взрослые</label>
+              <button class="serch__btn  serch__btn--minus" type="button" aria-label="minus"></button>
+              <input class="search__field" id="big-number" type="text" name="big" value="2">
+              <button class="serch__btn  serch__btn--plus" type="button" aria-label="plus">
+            </p>
+            <p>
+              <label class="serch_label" for="small-number">Дети</label>
+              <button class="serch__btn  serch__btn--minus" type="button" aria-label="minus"></button>
+              <input class="search__field" id="small-number" type="text" name="small" value="0">
+              <button class="serch__btn  serch__btn--plus" type="button" aria-label="plus">
+            </p>
+          </div>
+          <a class="button button-blue"  href="#">Найти</a>
+        </form>
       </section>
     </main>
     <footer class="footer-main">
       <div class="footer-main__hashtag">#VisitSedona</div>
       <div class="social">
-        <a class="social__link" href="#" ><img class="social__img  social__img--tw" src="" alt="Twitter" ></a>
-        <a class="social__link" href="#" ><img class="social__img  social__img--fb" src="" alt="Facebook" ></a>
-        <a class="social__link" href="#" ><img class="social__img  social__img--yt" src="" alt="Youtube" ></a>
+        <a class="social__link" href="#" aria-label="Twitter"><img class="social__img  social__img--tw" src="" alt="Twitter"></a>
+        <a class="social__link" href="#" aria-label="Facebook"><img class="social__img  social__img--fb" src="" alt="Facebook"></a>
+        <a class="social__link" href="#" aria-label="Youtube"><img class="social__img  social__img--yt" src="" alt="Youtube"></a>
       </div>
       <div class="footer-main__html-logo">
         <a class="footer-main__link" href="https://htmlacademy.ru/intensive/htmlcss" ><img class="footer-main__img" src="http://placehold.it/150x100" alt="логотип HTML ACADEMY" ></a>
