@@ -1,0 +1,30 @@
+{
+  "name": "165599-sedona-25",
+  "version": "1.0.0",
+  "description": "* Студент: [Evgenia Tkacheva](https://up.htmlacademy.ru/htmlcss/25/user/165599). * Наставник: `Без наставника`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvaStool/165599-sedona-25.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvaStool/165599-sedona-25/issues"
+  },
+  "homepage": "https://github.com/EvaStool/165599-sedona-25#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
