@@ -1,0 +1,40 @@
+.button {
+  display: block;
+  text-align: center;
+  border: none;
+  transition: 180ms;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.button--search {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #766357;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.button--search:hover,
+.button--search:focus {
+  background-color: #604e43;
+}
+
+
+@media (min-width: 768px) {
+  .button--search {
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
